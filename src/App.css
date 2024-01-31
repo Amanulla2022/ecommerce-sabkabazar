@@ -4,3 +4,33 @@
   box-sizing: border-box;
   font-family: "system-ui";
 }
+
+/* Home Page */
+/* ? Carousel */
+.home-carousel {
+  width: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.home-prev-btn,
+.home-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: palevioletred;
+}
+
+/* ? Products */
+.arcticle-products img {
+  height: 15rem;
+  width: 20rem;
+}
+
+.description {
+  word-wrap: break-word;
+  max-width: 25rem; /* Adjust the value according to your design */
+}
